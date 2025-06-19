@@ -325,3 +325,7 @@ body {
 .button:hover i {
   color: #fff;
 }
+
+iframe:first-child {
+  display: none !important;
+}
