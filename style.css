@@ -12,6 +12,10 @@ body {
 *:focus {
   outline: none;
 }
+iframe:first-child {
+  display: none !important;
+}
+
 
 
 #player-container {
@@ -324,8 +328,4 @@ body {
 
 .button:hover i {
   color: #fff;
-}
-
-iframe:first-child {
-  display: none !important;
 }
